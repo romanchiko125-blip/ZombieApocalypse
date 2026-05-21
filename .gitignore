@@ -1,0 +1,6 @@
+# Gradle runtime files
+.gradle/
+build/
+
+# Exclude binary wrapper jar for platforms that disallow binaries
+gradle/wrapper/gradle-wrapper.jar

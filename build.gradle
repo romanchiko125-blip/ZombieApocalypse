@@ -26,6 +26,10 @@ minecraft {
 }
 
 repositories {
+codex/create-zombie-apocalypse-mod-for-minecraft-czw1ku
+    maven { url = 'https://maven.minecraftforge.net' }
+=======
+main
     mavenCentral()
 }
 
