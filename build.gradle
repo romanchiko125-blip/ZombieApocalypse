@@ -1,6 +1,7 @@
 buildscript {
     repositories {
-        maven { url = 'https://maven.minecraftforge.net' }
+        // Для Forge 1.12.2 стабильнее старый forge maven endpoint
+        maven { url = 'https://files.minecraftforge.net/maven' }
         mavenCentral()
     }
     dependencies {
@@ -26,6 +27,7 @@ minecraft {
 }
 
 repositories {
+    maven { url = 'https://files.minecraftforge.net/maven' }
     mavenCentral()
 }
 
